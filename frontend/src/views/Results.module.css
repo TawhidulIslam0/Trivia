@@ -1,0 +1,16 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.results__title {
+  font-family: var(--titleFont), sans-serif;
+  font-size: clamp(24px, 3.5vh, 36px);
+  color: #fd5660;
+  margin-bottom: 15px;
+}

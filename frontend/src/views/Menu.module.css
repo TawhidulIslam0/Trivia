@@ -1,0 +1,21 @@
+@import "../App/config.module.css";
+
+.menu {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu__title {
+  font-family: var(--titleFont), sans-serif;
+  font-size: clamp(30px, 3.5vh, 100px);
+  text-align: center;
+  color: #fd5660;
+}
+
+.menu__buttonContainer {
+  margin: 20px auto 0;
+}

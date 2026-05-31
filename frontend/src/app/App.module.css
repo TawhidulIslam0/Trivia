@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/images/background_img.jpg");
+}
+
+.App__card {
+  background-color: white;
+  padding: 5vh;
+  border: 0.5vh double #2a2e48;
+  margin: 0 0;   
+}

@@ -1,0 +1,44 @@
+/* 1. The structural grid layout container */
+.answerGrid {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 column on mobile devices */
+  grid-gap: 2vh;
+  margin: 1vh 0 4vh;
+}
+
+@media (min-width: 480px) {
+  .answerGrid {
+    grid-template-columns: 1fr 1fr; /* 2 columns on desktop tablets */
+  }
+}
+
+/* 2. Base non-selected button style (Replaces nonSelectedButtonStyle) */
+.answerButton {
+  padding: 12px 16px;
+  background-color: #f4f4f0; /* Matches your lightBeige */
+  color: #333;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover rule works natively here! */
+.answerButton:hover:not(:disabled) {
+  background-color: #f4f4f0;
+  color: black;
+  border-color: #fd5660; /* Subtle pink border line on hover */
+  transform: translateY(-2px);
+}
+
+/* 3. Selected button state (Replaces selectedButtonStyle) */
+.selected {
+  background-color: #fd5660; /* Matches your brand pink */
+  color: #ffffff;
+}
+
+.selected:hover:not(:disabled) {
+  background-color: #fd5660;
+  box-shadow: 0 4px 12px rgba(253, 86, 96, 0.3);
+}

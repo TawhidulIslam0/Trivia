@@ -1,0 +1,19 @@
+.bar {
+  width: 27vw;
+  display: flex;
+  max-width: 500px;
+  height: 3vh;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar__progress {
+  height: 100%;
+  transition: width 0.3s ease-in-out, background-color 0.2s ease;
+}
+
+.bar__remainder {
+  background-color: #f6f6f6; /* Simplified to your --lightGrey fallback */
+  height: 100%;
+  flex-grow: 1;
+}

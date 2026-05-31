@@ -1,0 +1,12 @@
+:root {
+  /* Google Fonts Styling Variables */
+  --loadingIndicatorFont: "Roboto Slab", serif;
+  --titleFont: "Bowlby One SC", cursive;
+  --questionFont: "Roboto Slab", serif;
+
+  /* Global Color Palette Sync */
+  --pink: #fd5660;
+  --darkPink: #c2185b; /* Added for the hover states we built earlier */
+  --lightGrey: #f6f6f6;
+  --white: #ffffff;
+}
